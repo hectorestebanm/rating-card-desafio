@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+    <main class="card">
+        <div class="card-rating">
+            <img class="card__imagen" src="images/icon-star.svg" alt="">
+            <h1 class="card__h1">How did we do?</h1>
+            <p class="card__p">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <div id="id_button" class="card__buttons">
+                <button class="card__button">1</button>
+                <button class="card__button">2</button>
+                <button class="card__button">3</button>
+                <button class="card__button">4</button>
+                <button class="card__button">5</button>
+            </div>
+            <button class="card__submit" onclick="submit()">Submit</button>  
+        </div>
+        <div class="card-end">
+            <img class="card-end__imagen" src="images/illustration-thank-you.svg" alt="">
+            <p class="card-end__p1">You selected <span id="id_span" class="card-end__p1__span">1</span> out of 5</p>
+            <h2 class="card-end__h2">Thank you!</h2>
+            <p class="card-end__p2">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+    </main>
+
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Héctor Montaño</a>.
+    </footer>
+
+    <script src="JS/scripts.js"></script>
+</body>
+</html>
